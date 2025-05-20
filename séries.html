@@ -1,69 +1,81 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-   <meta charset="UTF-8">
-   <title>Critiques de séries</title>
-   <style>
-       body {
-           font-family: Arial, sans-serif;
-           background-color: #f4f4f4;
-           margin: 0;
-           padding: 20px;
-       }
+ <meta charset="UTF-8">
+ <title>Nos critiques de séries</title>
+ <style>
+   body {
+     font-family: Arial, sans-serif;
+     background-color: #fefefe;
+     margin: 0;
+     padding: 20px;
+   }
 
-       h1 {
-           text-align: center;
-           color: #333;
-       }
+   h1 {
+     text-align: center;
+     color: #444;
+   }
 
-       .serie {
-           background-color: #fff;
-           padding: 20px;
-           margin: 20px auto;
-           max-width: 800px;
-           border-radius: 10px;
-           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-       }
+   .serie {
+     display: flex;
+     background-color: #f9f9f9;
+     padding: 20px;
+     margin: 20px auto;
+     max-width: 900px;
+     border: 1px solid #ccc;
+     border-radius: 8px;
+   }
 
-       .serie img {
-           max-width: 100%;
-           height: auto;
-           border-radius: 5px;
-       }
+   .serie img {
+     width: 150px;
+     height: auto;
+     border-radius: 5px;
+     margin-right: 20px;
+   }
 
-       .critique {
-           margin-top: 15px;
-       }
+   .serie .texte {
+     flex: 1;
+   }
 
-       a {
-           display: block;
-           text-align: center;
-           margin-top: 40px;
-           font-size: 18px;
-           text-decoration: none;
-           color: #2980b9;
-       }
-   </style>
+   .serie h2 {
+     margin-top: 0;
+     color: #b30000;
+   }
+
+   .serie p {
+     line-height: 1.6;
+     color: #333;
+   }
+
+   a {
+     display: block;
+     text-align: center;
+     margin-top: 40px;
+     font-size: 18px;
+     text-decoration: none;
+     color: #2980b9;
+   }
+ </style>
 </head>
 <body>
-   <h1>Nos critiques de séries</h1>
+ <h1>Nos critiques de séries</h1>
 
-   <div class="serie">
-       <img src="breaking bad.jpeg" alt="Breaking Bad">
-       <div class="critique">
-           <h2>Breaking Bad</h2>
-           <p>Une des meilleures séries de tous les temps. Un professeur de chimie qui devient fabricant de drogue... Scénario brillant, personnages complexes, tension incroyable.</p>
-       </div>
+ <div class="serie">
+   <img src="breaking bad.jpeg" alt="Breaking Bad">
+   <div class="texte">
+     <h2>Breaking Bad</h2>
+     <p>Une série captivante créée par Vince Gilligan. L’histoire suit Walter White, un professeur de chimie atteint d’un cancer, qui se lance dans la fabrication de méthamphétamine. Un scénario intense, des personnages profonds et une tension constante. <strong>Note : 5/5</strong></p>
    </div>
+ </div>
 
-   <div class="serie">
-       <img src="Twilight.jpg" alt="Twilight">
-       <div class="critique">
-           <h2>Twilight</h2>
-           <p>Une série culte pour les fans de romances fantastiques. Des vampires, des loups-garous, et une histoire d'amour qui divise : culte ou cliché ? À vous de juger.</p>
-       </div>
+ <div class="serie">
+   <img src="Twilight.jpg" alt="Twilight">
+   <div class="texte">
+     <h2>Twilight</h2>
+     <p>Une série romantique et surnaturelle centrée sur l’histoire d’amour entre une humaine et un vampire. Partagée entre amour éternel et conflits surnaturels, cette série divise mais reste culte pour beaucoup. <strong>Note : 3.5/5</strong></p>
    </div>
+ </div>
 
-   <a href="index.html">Retour à l'accueil</a>
+ <a href="index.html">Retour à l'accueil</a>
 </body>
 </html>
